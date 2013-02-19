@@ -1,0 +1,17 @@
+!!! 5
+html
+  head
+    title Mocha
+    link(href='mocha.css', rel='stylesheet')
+  body
+    #mocha
+    script(src='../build/build.js')
+    script(src='mocha.js')
+    script
+      mocha.setup({
+        ui: 'bdd',
+        globals: ['navigator', 'getInterface']
+      });
+    script(src='index.js')
+    script
+      mocha.run();

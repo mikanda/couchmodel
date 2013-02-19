@@ -1,0 +1,18 @@
+{
+  "name": "couchmodel",
+  "repo": "mikanda/couchmodel",
+  "description": "Backbone models for abstracting CouchDB documents.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "mikanda/backbone": "*",
+    "component/underscore": "*"
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
