@@ -12,11 +12,11 @@
   - [Document](#document)
   - [Rows](#rows)
 
-## Document
+### Document
 
   Document is the simple model that uses CouchDB's `_id` as idAttribute.
 
-## Rows
+### Rows
 
   Rows is a collection that wraps a couchdb response of the typical `rows`
   form.
